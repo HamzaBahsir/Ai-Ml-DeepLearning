@@ -1,0 +1,188 @@
+Course community link: https://community.deeplearning.ai/t/tf1-assignment-troubleshooting-tips/181320
+
+https://github.com/zalandoresearch/fashion-mnist
+https://ai.google/principles/#our-ai-principles-in-action
+https://youtu.be/fXOsFF95ifk
+https://www.tensorflow.org/api_docs/python/tf/keras/datasets
+https://www.youtube.com/watch?v=LLux1SW--oM******************************TODO
+
+1d training -> sgd, mean_square_error
+2d images -> optimizer = tf.optimizers.Adam(), loss = 'sparse_categorical_crossentropy', metrics=['accuracy'])
+2d RGB images with binary classifier -> Sigmoid activation, loss = 'binary_crossentropy', optimizer = tf.keras.optimizers.RMSprop(learning_rate=0.001)
+
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv2D
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/MaxPool2D
+
+Convolutional Neural Networks (Course 4 of the Deep Learning Specialiation) bit.ly/2UGa7uH ******************** TODO
+
+https://scipy.org
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.datasets.ascent.html
+
+https://numpy.org/doc/stable/reference/generated/numpy.reshape.html
+https://numpy.org/doc/stable/reference/generated/numpy.divide.html
+https://www.youtube.com/watch?v=NlpS-DhayQA
+https://youtu.be/zLRB4oupj6g ********************************************* TODO
+https://gombru.github.io/2018/05/23/cross_entropy_loss/******************* TODO
+http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf
+https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/RMSprop
+https://www.youtube.com/watch?v=eqEc66RFY0I
+https://www.tensorflow.org/datasets/catalog/horses_or_humans
+https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image_dataset_from_directory
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/Rescaling
+https://www.tensorflow.org/api_docs/python/tf/data/Dataset
+https://developers.google.com/machine-learning/crash-course/linear-regression
+https://www.tensorflow.org/guide/data
+https://www.tensorflow.org/api_docs/python/tf/data/Dataset#cache
+https://www.tensorflow.org/api_docs/python/tf/data/Dataset#shuffle
+https://www.tensorflow.org/api_docs/python/tf/data/Dataset#prefetch
+https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/EarlyStopping
+https://www.tensorflow.org/api_docs/python/tf/keras/callbacks
+https://www.tensorflow.org/api_docs/python/tf/data/Dataset
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/Rescaling
+https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image_dataset_from_directory
+https://www.tensorflow.org/api_docs/python/tf/data/Dataset
+https://www.tensorflow.org/api_docs/python/tf/keras/losses
+
+
+Course 2:
+week 2:
+Kaggle Cat vs Dog dataset : https://www.kaggle.com/c/dogs-vs-cats
+https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image_dataset_from_directory
+It is recommended to use a batch_size of 128 as it yields a good trade-off between training times and memory usage
+keras preprocessing layers : https://keras.io/api/layers/preprocessing_layers/
+Image augmentation: https://keras.io/api/layers/preprocessing_layers/image_augmentation/
+Working with pre-processing layers https://www.tensorflow.org/guide/keras/preprocessing_layers#image_data_augmentation
+Image Augmentation: Randomflip-https://www.tensorflow.org/api_docs/python/tf/keras/layers/RandomFlip
+Image Augmentation: RandomRotation-https://www.tensorflow.org/api_docs/python/tf/keras/layers/RandomRotation
+Image Augmentation: RandomTranslation-https://www.tensorflow.org/api_docs/python/tf/keras/layers/RandomTranslation
+Image Augmentation: RandomZoom-https://www.tensorflow.org/api_docs/python/tf/keras/layers/RandomZoom
+You can also add other preprocessing layers for random contrast, brightness, or cropping.
+Take course later on: https://www.coursera.org/learn/deep-neural-network
+
+week 3: 
+Dropout  : https://www.youtube.com/watch?v=ARq74QuavAo
+Inceptionv3 : https://arxiv.org/abs/1512.00567
+Dropout api https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dropout
+Inception v3 api : https://www.tensorflow.org/api_docs/python/tf/keras/applications/InceptionV3
+
+Tensor flow functional API : https://www.tensorflow.org/guide/keras/functional_api
+Keras.model https://www.tensorflow.org/api_docs/python/tf/keras/Model
+
+week 4: 
+Rock, paper, scissor dataset https://creativecommons.org/licenses/by/2.0/
+download training set https://storage.googleapis.com/tensorflow-1-public/course2/week4/rps.zip, https://storage.googleapis.com/tensorflow-1-public/course2/week4/rps-test-set.zip
+Rock, paper, scissor dataset https://www.tensorflow.org/datasets/catalog/rock_paper_scissors
+datasets https://archive.ics.uci.edu/datasets
+sign language dataset https://www.kaggle.com/datasets/datamunge/sign-language-mnist
+
+Course 3: 
+Week 1: 
+Test Vectorization: https://www.tensorflow.org/api_docs/python/tf/keras/layers/TextVectorization
+Adapt https://www.tensorflow.org/api_docs/python/tf/keras/layers/TextVectorization#adapt
+Pad sequence https://www.tensorflow.org/api_docs/python/tf/keras/utils/pad_sequences
+Sarcasm dataset https://www.kaggle.com/datasets/rmisra/news-headlines-dataset-for-sarcasm-detection
+Json https://www.json.org/json-en.html
+Ragged Tensor : https://www.tensorflow.org/guide/ragged_tensor
+BBC dataset http://mlg.ucd.ie/datasets/bbc.html
+Pandas library https://pandas.pydata.org
+tf csv dataset https://www.tensorflow.org/api_docs/python/tf/data/experimental/CsvDataset
+Stop words https://en.wikipedia.org/wiki/Stop_word
+string lower method https://docs.python.org/3/library/stdtypes.html#str.lower
+
+
+Explore the BBC News archive
+
+Week2: 
+IMDB movie review dataset https://ai.stanford.edu/~amaas/data/sentiment/
+Tensorflow data sets https://www.tensorflow.org/datasets/catalog/overview
+Ragged batch https://www.tensorflow.org/api_docs/python/tf/data/Dataset#ragged_batch
+cardinality https://www.tensorflow.org/api_docs/python/tf/data/Dataset#cardinality
+Get single element https://www.tensorflow.org/api_docs/python/tf/data/Dataset#get_single_element
+map https://www.tensorflow.org/api_docs/python/tf/data/Dataset#map
+apply https://www.tensorflow.org/api_docs/python/tf/data/Dataset#apply
+Word embedding https://www.tensorflow.org/text/guide/word_embeddings
+tensorflow embedding projector https://projector.tensorflow.org
+news headline dataset for sarcasm detection https://www.kaggle.com/datasets/rmisra/news-headlines-dataset-for-sarcasm-detection
+Global Average Pooling 1D https://www.tensorflow.org/api_docs/python/tf/keras/layers/GlobalAveragePooling1D
+fit method https://keras.io/api/models/model_training_apis/#fit-method
+KerasNLP is now KerasHub https://github.com/keras-team/keras-hub/issues/1831
+KerasNLP library https://keras.io/keras_hub/
+Compute word piece vocabulary function https://keras.io/keras_hub/api/tokenizers/compute_word_piece_vocabulary/
+Word piece tokenizer https://keras.io/keras_hub/api/tokenizers/word_piece_tokenizer/
+word piece algorithm papers: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37842.pdf
+Fast wordpiece tokenization: https://arxiv.org/abs/2012.15524
+
+Week3:
+Deep RNN: https://www.coursera.org/lecture/nlp-sequence-models/deep-rnns-ehs0S	
+sequence model course: https://www.coursera.org/learn/nlp-sequence-models
+LSTMs: https://www.coursera.org/learn/nlp-sequence-models/long-short-term-memory-lstm-KXoay
+LSTM library https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM
+Bidirectional wrappers for RNNs https://www.tensorflow.org/api_docs/python/tf/keras/layers/Bidirectional
+GRUs https://www.tensorflow.org/api_docs/python/tf/keras/layers/GRU
+Global Averaging Pooling 1D https://www.tensorflow.org/api_docs/python/tf/keras/layers/GlobalAveragePooling1D
+Kaggle dataset https://www.kaggle.com/datasets/kazanova/sentiment140
+Glove https://nlp.stanford.edu/projects/glove/
+skip method https://www.tensorflow.org/api_docs/python/tf/data/Dataset#skip
+take method https://www.tensorflow.org/api_docs/python/tf/data/Dataset#take
+batch method https://www.tensorflow.org/api_docs/python/tf/data/Dataset#batch
+
+
+Week 4: 
+Irish song: https://en.wikipedia.org/wiki/Lanigan%27s_Ball
+Irish songs dataset https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C3/W4/misc/Laurences_generated_poetry.txt
+Text generation with an RNN: https://www.tensorflow.org/text/tutorials/text_generation
+The Unreasonable Effectiveness of Recurrent Neural Networks: https://karpathy.github.io/2015/05/21/rnn-effectiveness/
+tensorflow basics : https://www.tensorflow.org/guide/basics
+Sequential model https://www.tensorflow.org/guide/keras/sequential_model
+Making new layers and models via subclassing https://www.tensorflow.org/guide/keras/making_new_layers_and_models_via_subclassing
+keras RNN guide https://www.tensorflow.org/guide/keras/working_with_rnns#rnn_state_reuse
+save model format https://www.tensorflow.org/guide/saved_model
+Shakespeare sonnet https://www.opensourceshakespeare.org/views/sonnets/sonnet_view
+
+Course 4:
+Week 1:
+numpy library : https://numpy.org
+matplot library : https://matplotlib.org/3.8.3/api/pyplot_summary.html
+pyplot https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html
+slop intercept form https://en.wikipedia.org/wiki/Linear_equation#Slope–intercept_form_or_Gradient-intercept_form
+Moor's law https://en.wikipedia.org/wiki/Moore%27s_law
+Mean square error https://www.tensorflow.org/api_docs/python/tf/keras/losses/MSE
+Mean Absolute error https://www.tensorflow.org/api_docs/python/tf/keras/losses/MAE
+
+Week2:
+Build TensorFlow input pipelines https://www.tensorflow.org/guide/data
+td.Data.Dataset : https://www.tensorflow.org/api_docs/python/tf/data/Dataset
+window method: https://www.tensorflow.org/api_docs/python/tf/data/Dataset#window
+Dataset structure https://www.tensorflow.org/guide/data#dataset_structure
+tensors https://www.tensorflow.org/guide/tensor
+flat-map https://www.tensorflow.org/api_docs/python/tf/data/Dataset#flat_map
+flatten a dataset of windows https://www.tensorflow.org/api_docs/python/tf/data/Dataset#flatten_a_dataset_of_windows
+cardinality method: https://www.tensorflow.org/api_docs/python/tf/data/Dataset#cardinality
+map method: https://www.tensorflow.org/api_docs/python/tf/data/Dataset#map
+shuffle method: https://www.tensorflow.org/api_docs/python/tf/data/Dataset#shuffle
+batch method: https://www.tensorflow.org/api_docs/python/tf/data/Dataset#batch
+Optimizing input pipeline https://towardsdatascience.com/optimising-your-input-pipeline-performance-with-tf-data-part-1-32e52a30cac4/#Prefetching
+Learning rate schedular callback https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/LearningRateScheduler
+Shuffle https://www.tensorflow.org/api_docs/python/tf/data/Dataset#shuffle
+
+
+Week3:
+Hubor loss: https://en.wikipedia.org/wiki/Huber_loss
+simple RNN: https://www.tensorflow.org/api_docs/python/tf/keras/layers/SimpleRNN#call_arguments
+Activation function tables : https://en.wikipedia.org/wiki/Activation_function#Table_of_activation_functions
+
+Week 4: 
+https://www.coursera.org/learn/convolutional-neural-networks
+batch sizing : https://www.youtube.com/watch?v=4qJaSmvhxi8
+Conv1D : https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv1D
+Padding argument: https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv1D#args
+Sunspots dataset: https://www.kaggle.com/datasets/robervalt/sunspots
+CSV module: https://docs.python.org/3/library/csv.html
+Daily minimum temperatures in Melbourn https://github.com/jbrownlee/Datasets/blob/master/daily-min-temperatures.csv
+
+What next:
+TensorFlow: Data and Deployment Specialization:
+https://www.coursera.org/specializations/tensorflow-data-and-deployment?utm_source=deeplearning-ai&utm_medium=institutions&utm_campaign=TF1CourseItem
+
+TensorFlow: Advanced Techniques Specialization
+https://www.coursera.org/specializations/tensorflow-advanced-techniques?utm_source=deeplearning-ai&utm_medium=institutions&utm_campaign=TF1CourseItem
